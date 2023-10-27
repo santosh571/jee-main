@@ -92,18 +92,6 @@ body{
     margin-top: 10px;
     font-size: 15px;
 }
-.box1{
-    background-color: #080808;
-    margin: auto;
-    margin-top: 70px;
-    height: 40%;
-    width: 60%;
-}
-.box1 img{
-    background-size: cover;
-    height:100%;
-    width:40%;
-}
 .box2{
     background-color: #080808;
     margin: auto;
