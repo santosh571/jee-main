@@ -6,14 +6,11 @@
 }
 body{
    background-image: url(https://wallpaperaccess.com/full/1534488.jpg);
-   height: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
    
 }
 .nav{
     background-image:url(https://atlas10.com/wp-content/uploads/2014/12/Header-Background.jpg)
-
 }
 .box{
     height:600px ;
