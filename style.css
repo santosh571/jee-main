@@ -7,15 +7,17 @@
 body{
    background-image: url(https://wallpaperaccess.com/full/1534488.jpg);
     background-size: cover;
-   
+    background-repeat: repeat-y;
 }
 .nav{
-    background-image:url(https://atlas10.com/wp-content/uploads/2014/12/Header-Background.jpg)
+    background-image:url(https://atlas10.com/wp-content/uploads/2014/12/Header-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box{
     height:600px ;
   width: 80%;
-  border: 5px solid #080808;
+  border: 5px solid #b86eb1;
   padding: 10px;
   margin-top:20px;
   margin-left: 10%;
@@ -24,7 +26,7 @@ body{
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    animation: colorchanger 10s;
+    animation: colorchanger 5s;
     animation-iteration-count: infinite;
     background-color: #f70404;
 
@@ -55,7 +57,6 @@ body{
     height: 50px;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 0px 5px 5px 0px #599b85;
 }
 #btn{
     margin-top: 15px;
@@ -96,12 +97,21 @@ body{
     font-size: 15px;
 }
 .head{
-    background-color: green;
     text-align: center;
     color: white;
     font-size: 40px;
     margin-top: 5%;
     font-family: cursive;
+    animation: head 5s infinite;
+}
+@keyframes head {
+    0%{
+        color: #f70404 ;
+    }
+     100%{
+        color: green;
+    }
+    
 }
 .foot{
     background-color: #080808;
