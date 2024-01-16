@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-   background-image: url(s3.jpg);
+   background-color:blue;
    height: 100vh;
    width: 100%;
    background-size: cover;
