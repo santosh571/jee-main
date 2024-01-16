@@ -5,14 +5,12 @@
     text-decoration: none;
 }
 body{
-   background-image: url(https://wallpaperaccess.com/full/1534488.jpg);
-    background-size: cover;
-    background-repeat: repeat-y;
-}
-.nav{
-    background-image:url(https://atlas10.com/wp-content/uploads/2014/12/Header-Background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-image: url(s3.jpg);
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+   align-items: center;
+   background-repeat: no-repeat;
 }
 .box{
     height:600px ;
